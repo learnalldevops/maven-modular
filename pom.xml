@@ -13,6 +13,30 @@
     <module>module2</module>
   </modules>
   
+  <scm>
+       <connection>scm:https://github.com/singhmohini/maven-multi-module-example.git</connection>
+       <url>https://github.com/singhmohini/maven-multi-module-example.git</url>
+       <developerConnection>scm:git:https://github.com/singhmohini/maven-multi-module-example.git</developerConnection>
+      <tag>rel-1.0</tag>
+  </scm>
+  
+  
+  
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus</id>
+      <url>http://3.135.202.163:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+   <repository>
+      <id>nexus</id>
+      <url>http://3.135.202.163:8081/nexus/content/repositories/releases</url>
+   </repository>
+</distributionManagement>
+  
+  
+  
+ 
+  
   <build>
     <plugins>
       <plugin>
