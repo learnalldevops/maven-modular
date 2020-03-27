@@ -17,7 +17,7 @@
        <connection>scm:https://github.com/singhmohini/maven-multi-module-example.git</connection>
        <url>https://github.com/singhmohini/maven-multi-module-example.git</url>
        <developerConnection>scm:git:https://github.com/singhmohini/maven-multi-module-example.git</developerConnection>
-      <tag>rel-1.0</tag>
+      <tag>rel-2.0</tag>
   </scm>
   
   
@@ -53,7 +53,7 @@
             <autoVersionSubmodules>true</autoVersionSubmodules>
             <pushChanges>false</pushChanges>
             <localCheckout>true</localCheckout>
-            <tagNameFormat>@{project.version}</tagNameFormat>
+            <tagNameFormat>v@{project.version}</tagNameFormat>
           </configuration>
         </plugin>    
     </plugins>
