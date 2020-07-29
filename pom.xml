@@ -25,11 +25,11 @@
   <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
-      <url>http://3.135.218.120:8081/nexus/content/repositories/snapshots</url>
+      <url>http://18.189.220.37:8081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
    <repository>
       <id>nexus</id>
-      <url>http://3.135.218.120:8081/nexus/content/repositories/releases</url>
+      <url>http://18.189.220.37:8081/nexus/content/repositories/releases</url>
    </repository>
 </distributionManagement>
   
@@ -44,6 +44,21 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      <plugin>
+                             <groupId>org.flywaydb</groupId>
+                             <artifactId>flyway-maven-plugin</artifactId>
+                             <version>6.3.2</version>
+                     
+		                         <configuration>
+                               <url>jdbc:mysql://3.132.205.252:3306</url>
+                               <user>inguser1</user>
+		                           <password>H@ckath0n</password>
+			                         <schemas>
+                                 <schema>testdb</schema>
+                              </schemas>
+                            </configuration>
+				
+       </plugin>
       
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
