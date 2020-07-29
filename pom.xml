@@ -49,13 +49,13 @@
                              <artifactId>flyway-maven-plugin</artifactId>
                              <version>6.3.2</version>
                      
-		                         <configuration>
+		             <configuration>
                                <url>jdbc:mysql://3.132.205.252:3306</url>
                                <user>inguser1</user>
-		                           <password>H@ckath0n</password>
-			                         <schemas>
+		               <password>H@ckath0n</password>
+			       <schemas>
                                  <schema>testdb</schema>
-                              </schemas>
+                               </schemas>
                             </configuration>
 				
        </plugin>
