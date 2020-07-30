@@ -17,7 +17,7 @@
        <connection>scm:https://github.com/singhmohini/maven-multi-module-example.git</connection>
        <url>https://github.com/singhmohini/maven-multi-module-example.git</url>
        <developerConnection>scm:git:https://github.com/singhmohini/maven-multi-module-example.git</developerConnection>
-      <tag>rel-2.0</tag>
+      <tag>HEAD</tag>
   </scm>
   
   
